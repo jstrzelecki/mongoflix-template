@@ -71,6 +71,40 @@ Aby rozpocząć projekt, wykonaj te kroki:
 ---
 *Powodzenia, Zespół Mongoflix* 🚀
 
+---
+# 📋 Tablica kanban.
+
+## :tools: Jak to zrobić na GitHubie?
+- W repozytorium kliknij zakładkę Projects.
+- Wybierz New project -> Board.
+- GitHub sam stworzy kolumny: Todo, In Progress, Done. Możecie dodać kolumnę Testing pomiędzy nich.
+- Dzięki temu Ty, wchodząc na ich projekt, od razu widzisz:
+- Kto nic nie robi (pusta kolumna "In Progress").
+- Kto utknął (zadanie wisi w "Testing" trzeci dzień).
+- Ile realnie zostało do końca.
+
+## Przykładowe zagadnienia na tablicę
+:triangular_ruler: Etap 2: Projektowanie (Design)
+[ ] Opracowanie struktury dokumentu filmu w pliku docs/schema.md.
+[ ] Określenie typów danych dla pól (np. String, Int32, Date, Array).
+
+
+:floppy_disk: Etap 3: Dane i Zasilanie (Data & Seeding)
+[ ] Przygotowanie zestawu min. 10 dokumentów w formacie JSON (pliki data/movies.json).
+[ ] Napisanie skryptu scripts/seed.js (czyszczenie bazy i insertMany).
+[ ] Test zasilania bazy: Sprawdzenie czy dane poprawnie lądują w MongoDB.
+
+:mag: Etap 4: Logika i Analiza (Implementation)
+[ ] Napisanie zapytania wyszukującego filmy z konkretnego gatunku (find).
+[ ] Napisanie zapytania filtrującego filmy po dacie i ocenie (operators: $gt, $and).
+[ ] Stworzenie agregacji (aggregate): Średnia ocena dla każdego gatunku.
+[ ] Napisanie skryptu aktualizującego dane (np. dodanie pola featured: true).
+
+:checkered_flag: Etap 5: Finalizacja (Review & Delivery)
+[ ] Weryfikacja kodu przez partnera (Code Review).
+[ ] Uzupełnienie dokumentacji w README.md (instrukcja uruchomienia).
+[ ] Finalny git push i sprawdzenie czy Webhook poprawnie zaraportował koniec prac.
+
 
 
 
